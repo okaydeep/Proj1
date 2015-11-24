@@ -21,7 +21,7 @@ local nextSceneButton
 function scene:create( event )
     local sceneGroup = self.view
     class1 = ClassSample:New(class1)
-    class1:Intro()
+    class1.version = 1
 
     -- Called when the scene's view does not exist
     -- 
