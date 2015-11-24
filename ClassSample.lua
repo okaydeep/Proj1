@@ -1,8 +1,7 @@
 -- Class sample
 ClassSample = { }
 
-function ClassSample:New(object)
-	print(self.name)
+function ClassSample:New(object)	
 	object = object or {}
 	setmetatable(object, self)
 	self.__index = self
